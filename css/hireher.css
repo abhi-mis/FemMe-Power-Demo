@@ -45,6 +45,32 @@ input, button {
 #new-task-input::placeholder {
     color: black;
 }
+#new-task-inpu {
+	flex: 1 1 0%;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+    border: 2px solid black;
+    color: #111827;
+}
+
+#new-task-inpu::placeholder {
+    color: black;
+}
+#new-task-inp {
+	flex: 1 1 0%;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+    border: 2px solid black;
+    color: #111827;
+}
+
+#new-task-inp::placeholder {
+    color: black;
+}
 
 #new-task-submit {
 	color: var(--pink);
@@ -87,7 +113,6 @@ main {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--darkest);
-	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
 }
@@ -98,7 +123,8 @@ main {
 
 .task .content .text {
 	color: var(--light);
-	font-size: 1.125rem;
+	font-size: 1.5rem;
+    font-weight: bold;
 	width: 100%;
 	display: block;
 	transition: 0.4s;
@@ -115,15 +141,17 @@ main {
 
 .task .actions button {
 	cursor: pointer;
-	margin: 0 0.5rem;
 	font-size: 1.125rem;
 	font-weight: 700;
 	text-transform: uppercase;
+    border-radius: 10px;
 	transition: 0.4s;
+    margin: 4px 10px 4px 0;
 }
 
-.task .actions button:hover {
-	opacity: 0.8;
+.delete:hover{
+
+    background-color: #ffffff;
 }
 
 .task .actions button:active {
@@ -138,4 +166,5 @@ main {
 
 .task .actions .delete {
 	color: crimson;
+    padding: 20px;
 }
