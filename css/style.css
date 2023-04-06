@@ -428,19 +428,19 @@ button {
     display: none;
 }
 
-.main:hover::after {
-    background-color: rgba(27, 236, 222, 0.5);
-    display: block;
-}
 
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    width: 78%;
+    height:auto;
 }
+.image-hh{
+    opacity: 1;
+    display: block;
+    transform: scale(1.4);
+}
+
 
 .middle {
     transition: .5s ease;
