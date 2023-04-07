@@ -265,16 +265,16 @@ button {
 }
 
 .images_1 {
-    width: 80%;
-    float: right;
-    padding-top: 50px;
+    width: 500px;
+    height:300px;
+   
 }
 
 .banner_taital {
     width: 100%;
     float: left;
     font-size: 60px;
-    color: #15e4d0;
+    color: #e415bb;
     font-weight: bold;
     line-height: 60px;
     padding-top: 120px;
